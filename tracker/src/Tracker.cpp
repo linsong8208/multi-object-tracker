@@ -207,9 +207,9 @@ void TargetRectDrawer::CallBackFunc(int event, int x, int y, int flags)
 			}
 			else if ((new_width * new_height) < 0)
 			{
-				this->getRectVec().back().first.x = x; //?
-				this->getRectVec().back().first.width = -new_width;  //?
-				this->getRectVec().back().first.height = new_height; //?
+				this->getRectVec().back().first.x = x;
+				this->getRectVec().back().first.width = -new_width;
+				this->getRectVec().back().first.height = new_height;
 			}
 
 			this->img_draw = this->img_prev.clone();
