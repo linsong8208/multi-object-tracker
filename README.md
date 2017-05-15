@@ -1,6 +1,5 @@
 # multi-object-tracker
 Multiple objects tracker using openCV and dlib
-![Alt text](/example.png)
 
 # Requsites
 __1. openCV 3.0__  
