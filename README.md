@@ -31,8 +31,10 @@ The folliwing instruction is how to compile dlib. If you have troubles in compil
 
 3. You will be able to see a window with the first frame image. Draw rectangles around the targets you want to track. You can use `ESC` __if you want to remove rectangles__ and `ENTER` __if you are done with drawing__.
 
-4. 
+4. Now you can see tracking all targets you made.
 
 # Future updates
 
-1.  
+1. Attack detector. (Pedestrian detector as an example)
+
+2. Divide tracker/Tracker.cpp into several files.
