@@ -37,4 +37,4 @@ The folliwing instruction is how to compile dlib given that you are done with op
 
 1. Attach detector. (Pedestrian detector as an example)
 
-2. Divide tracker/Tracker.cpp into several files.
+2. Divide __tracker/Tracker.cpp__ into several files.
