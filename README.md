@@ -3,9 +3,9 @@ Multiple objects tracker using openCV and dlib
 ![Alt text](/example.png)
 
 # Requsites
-__1. openCV 3.0__  
-__2. dlib-19.3__  
-__3. visual studio 15 (c+11 is necessary)__  
+* __openCV 3.0__  
+* __dlib-19.3__  
+* __visual studio 15 (c+11 is necessary)__  
 
 # How to compile
 To run this program, you need to compile __opencv__ and __dlib__. You will be able to compile __opencv__ easily from many websites.
@@ -24,6 +24,14 @@ The folliwing instruction is how to compile dlib. If you have troubles in compil
 6. Build.
 
 # How to run 
+
+1. Open cmd and move to the directory which has exe file.
+
+2. Write command : __MultiObjectTracker.exe "YOUR_FRAME_IMAGE_PATH"__. If you're using frame images in this repository, the command is __MultiObjectTracker.exe "video_frame"__.
+
+3. You will be able to see a window with the first frame image. Draw rectangles around the targets you want to track. You can use ""ESC"" KEY __if you want to remove rectangles__ and __ENTER KEY if you are done with drawing__.
+
+4. 
 
 # Future updates
 
